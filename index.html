@@ -6,13 +6,27 @@
 			color: #fff; /* white text color */
 			padding: 10px; /* adjust as needed */
 		}
-		/* Add this to your existing CSS or in a <style> tag in the head */
-		.carousel-control-prev-icon,
-		.carousel-control-next-icon {
-			background-color: #000; /* Change to a color that contrasts well with your background */
-			opacity: 1 !important; /* Override any opacity settings */
-			visibility: visible !important; /* Ensure the arrows are visible */
-		}
+		.carousel-control-prev,
+	        .carousel-control-next {
+	            width: 5%; /* Adjust the width as needed */
+	            top: 50%;
+	            transform: translateY(-50%);
+	            background-color: rgba(0, 0, 0, 0.5); /* Control background color */
+	            border: none;
+	        }
+	
+	        .carousel-control-prev-icon,
+	        .carousel-control-next-icon {
+	            color: #fff; /* Control arrow color */
+	        }
+	
+	        .carousel-control-prev {
+	            left: 0;
+	        }
+	
+	        .carousel-control-next {
+	            right: 0;
+	        }
 	</style>
 
 	<!-- Required meta tags -->
