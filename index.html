@@ -7,13 +7,16 @@
 			padding: 10px; /* adjust as needed */
 		}
 		.carousel-control-prev,
-	        .carousel-control-next {
-	            width: 5%; /* Adjust the width as needed */
-	            top: 50%;
-	            transform: translateY(-50%);
-	            background-color: rgba(0, 0, 0, 0.5); /* Control background color */
-	            border: none;
-	        }
+		.carousel-control-next {
+			width: 5%;
+			height: 100%; /* Adjust the height to match the carousel container */
+			top: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			border: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
 	
 	        .carousel-control-prev-icon,
 	        .carousel-control-next-icon {
